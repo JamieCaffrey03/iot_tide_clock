@@ -6,4 +6,9 @@ The IoT Tide Clock is a device that displays accurate tidal information on an E-
 - Smart Home compatability.
 
 # Components
-aa
+- DFRobot FireBeetle 2 ESP32-C6
+- Waveshare 7.5-inch E-Paper display
+- DESPI-C02 Adapter Board
+- 3.7V LiPo battery
+
+

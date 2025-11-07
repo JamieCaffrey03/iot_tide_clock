@@ -11,15 +11,15 @@
 
 #define uS_TO_S_FACTOR 1000000ULL
 #define TIME_TO_SLEEP 21600        
-#define SSID "TideClockWiFi"
-#define PASSPH "B00141010"
-#define API_KEY "ae89b9d7-2b3f-4fd3-9dbe-d30c6cf66865"
+#define SSID ""
+#define PASSPH ""
+#define API_KEY ""
 
 // MQTT Broker settings
 const char* mqtt_server = "192.168.0.89";
 const int mqtt_port = 1883;
-const char* mqtt_user = "mqttuser";
-const char* mqtt_password = "mqttpassword";
+const char* mqtt_user = ";
+const char* mqtt_password = "";
 
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);

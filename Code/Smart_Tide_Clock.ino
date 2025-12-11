@@ -18,7 +18,7 @@
 // MQTT Broker settings
 const char* mqtt_server = "192.168.0.89";
 const int mqtt_port = 1883;
-const char* mqtt_user = ";
+const char* mqtt_user = "";
 const char* mqtt_password = "";
 
 WiFiClient espClient;
@@ -274,4 +274,5 @@ void loop() {
   
   // Serial.println("Entering deep sleep for 6 hours...");
   // esp_deep_sleep_start();
+
 }
